@@ -63,7 +63,6 @@ npm run build
 ## 👨‍💻 Author
 
 Shubham Gaonkar
-GitHub: https://github.com/ShubhamGaonkar02
 
 ---
 
