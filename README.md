@@ -4,7 +4,9 @@ A modern, responsive personal portfolio website built to showcase my projects, s
 
 ## 🌐 Live Website
 
-👉 https://shubham-gaonkar-portfolio.web.app/
+👉 Primary: https://shubham-gaonkar-portfolio.netlify.app/
+
+👉 Mirror: https://shubham-gaonkar-portfolio.web.app/
 
 ---
 
@@ -24,13 +26,14 @@ A modern, responsive personal portfolio website built to showcase my projects, s
 * Vite
 * JavaScript (ES6+)
 * CSS
+* Netlify Hosting
 * Firebase Hosting
 
 ---
 
 ## 📂 Project Structure
 
-```
+```bash
 src/
  ├── components/
  ├── data/
@@ -48,14 +51,6 @@ git clone https://github.com/ShubhamGaonkar02/Portfolio.git
 cd Portfolio
 npm install
 npm run dev
-```
-
----
-
-## 🚀 Build for Production
-
-```bash
-npm run build
 ```
 
 ---
