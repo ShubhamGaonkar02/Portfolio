@@ -74,7 +74,7 @@ export const projectsData = [
       'Full-stack web app to search trains, view schedules, and access station details with real-time search and auto-suggestions.',
     tech: ['HTML', 'CSS', 'JavaScript', 'REST API'],
     github: 'https://github.com/ShubhamGaonkar02/Find-My-Train',
-    live: 'https://antigravity-railway-tracking.web.app/',
+    live: 'https://find-my-train.vercel.app/',
   },
   {
     icon: '🏠',
