@@ -21,10 +21,10 @@ export const aboutData = {
   title: 'Computer Engineer & Data Enthusiast',
   paragraphs: [
     "I'm a Computer Engineering student at Don Bosco College of Engineering, Goa, with a strong foundation in Data Analysis and a growing passion for Full-Stack Development.",
-    'Experienced in Python, SQL, and building data-driven dashboards using Tableau. Familiar with web technologies like HTML, CSS, and JavaScript, with a solid understanding of REST APIs and backend workflows.',
+    'Experienced in Python, SQL, and building data-driven dashboards using Tableau. Familiar with modern web frameworks like React, Vite, Tailwind CSS, and building robust REST API backends.',
   ],
   stats: [
-    { value: '5+', label: 'Projects' },
+    { value: '6+', label: 'Projects' },
     { value: '7.8', label: 'CGPA' },
     { value: '3+', label: 'Certifications' },
   ],
@@ -39,7 +39,7 @@ export const skillsData = [
   {
     icon: '🌐',
     title: 'Web Development',
-    tags: ['HTML', 'CSS', 'Bootstrap', 'JavaScript', 'REST APIs'],
+    tags: ['React.js', 'Vite', 'Tailwind CSS', 'Zustand', 'HTML', 'CSS', 'JavaScript', 'REST APIs'],
   },
   {
     icon: '🤖',
@@ -67,6 +67,15 @@ export const experienceData = [
 ];
 
 export const projectsData = [
+  {
+    icon: '🎵',
+    title: 'Shubify — Ad-Free Music Player',
+    description:
+      'Full-stack Spotify-inspired music platform featuring live streaming, custom playlists, liked songs, dark/light themes, and responsive mobile bottom navigation.',
+    tech: ['React', 'Vite', 'Tailwind CSS', 'Zustand', 'Express', 'Firebase'],
+    github: 'https://github.com/ShubhamGaonkar02/shubify-music-player',
+    live: 'https://shubify-music.vercel.app/',
+  },
   {
     icon: '🚂',
     title: 'Find My Train',
@@ -129,7 +138,7 @@ export const certificationsData = [
     icon: '🤖',
     title: 'Tata GenAI Powered Data Analytics Job Simulation',
     description:
-      'Forage \u00b7 Aug 2025\nCompleted a GenAI-powered Data Analytics simulation with Tata, applying AI-driven insights and analytics workflows.',
+      'Forage · Aug 2025\nCompleted a GenAI-powered Data Analytics simulation with Tata, applying AI-driven insights and analytics workflows.',
     link: 'https://drive.google.com/file/d/1JfBRVs1BL2iCXSZYtpB6KiGCudA2OjHf/view?usp=sharing',
   },
 ];
