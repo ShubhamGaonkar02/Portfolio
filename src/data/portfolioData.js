@@ -71,7 +71,7 @@ export const projectsData = [
     icon: '🎵',
     title: 'Shubify — Ad-Free Music Player',
     description:
-      'Full-stack Spotify-inspired music platform featuring live streaming, custom playlists, liked songs, dark/light themes, and responsive mobile bottom navigation.',
+      'Full-stack music streaming platform featuring live playback, custom playlists, liked songs, dark/light themes, and responsive mobile bottom navigation.',
     tech: ['React', 'Vite', 'Tailwind CSS', 'Zustand', 'Express', 'Firebase'],
     github: 'https://github.com/ShubhamGaonkar02/shubify-music-player',
     live: 'https://shubify-music.vercel.app/',
