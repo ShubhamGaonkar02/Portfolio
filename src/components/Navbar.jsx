@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react';
 import logoImg from '../logo.png';
+import { personalInfo } from '../data/portfolioData';
 
 export default function Navbar() {
   const [scrolled, setScrolled] = useState(false);
@@ -66,6 +67,15 @@ export default function Navbar() {
           ))}
         </ul>
         <div className="nav-actions">
+          <a
+            href={personalInfo.resumeLink}
+            target="_blank"
+            rel="noreferrer"
+            className="nav-resume-btn"
+            title="View Resume"
+          >
+            <i className="fa-solid fa-file-arrow-down"></i> Resume
+          </a>
           <button
             className="theme-toggle"
             onClick={toggleTheme}

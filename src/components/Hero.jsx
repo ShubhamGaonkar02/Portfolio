@@ -111,6 +111,14 @@ export default function Hero() {
           <a href="#contact" className="btn btn-primary">
             <i className="fa-solid fa-paper-plane"></i> Get In Touch
           </a>
+          <a
+            href={personalInfo.resumeLink}
+            target="_blank"
+            rel="noreferrer"
+            className="btn btn-outline btn-resume"
+          >
+            <i className="fa-solid fa-file-arrow-down"></i> Resume
+          </a>
           <a href="#projects" className="btn btn-outline">
             <i className="fa-solid fa-code"></i> View Projects
           </a>

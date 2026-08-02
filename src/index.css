@@ -164,6 +164,20 @@ button { cursor: pointer; border: none; background: none; font-family: inherit; 
 .nav-actions {
   display: flex; align-items: center; gap: 12px;
 }
+.nav-resume-btn {
+  display: inline-flex; align-items: center; gap: 8px;
+  padding: 8px 18px; border-radius: 50px;
+  font-size: 0.85rem; font-weight: 600;
+  color: var(--accent-cyan);
+  background: var(--gradient-subtle);
+  border: 1px solid var(--glass-border-hover);
+  transition: var(--transition);
+}
+.nav-resume-btn:hover {
+  border-color: var(--accent-cyan);
+  box-shadow: var(--glow-cyan);
+  transform: translateY(-2px);
+}
 .theme-toggle {
   width: 44px; height: 44px; border-radius: 50%;
   display: flex; align-items: center; justify-content: center;
