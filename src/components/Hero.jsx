@@ -119,7 +119,7 @@ export default function Hero() {
           >
             <i className="fa-solid fa-file-arrow-down"></i> Resume
           </a>
-          <a href="#projects" className="btn btn-outline">
+          <a href="#projects" className="btn btn-primary">
             <i className="fa-solid fa-code"></i> View Projects
           </a>
         </div>
