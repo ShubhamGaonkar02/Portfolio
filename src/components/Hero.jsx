@@ -115,7 +115,7 @@ export default function Hero() {
             href={personalInfo.resumeLink}
             target="_blank"
             rel="noreferrer"
-            className="btn btn-outline btn-resume"
+            className="btn btn-primary"
           >
             <i className="fa-solid fa-file-arrow-down"></i> Resume
           </a>

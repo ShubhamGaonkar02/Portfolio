@@ -168,15 +168,14 @@ button { cursor: pointer; border: none; background: none; font-family: inherit; 
   display: inline-flex; align-items: center; gap: 8px;
   padding: 8px 18px; border-radius: 50px;
   font-size: 0.85rem; font-weight: 600;
-  color: var(--accent-cyan);
-  background: var(--gradient-subtle);
-  border: 1px solid var(--glass-border-hover);
+  color: #ffffff;
+  background: var(--gradient-accent);
+  box-shadow: 0 4px 20px rgba(0,212,255,0.25);
   transition: var(--transition);
 }
 .nav-resume-btn:hover {
-  border-color: var(--accent-cyan);
-  box-shadow: var(--glow-cyan);
   transform: translateY(-2px);
+  box-shadow: 0 6px 30px rgba(0,212,255,0.4);
 }
 .theme-toggle {
   width: 44px; height: 44px; border-radius: 50%;
