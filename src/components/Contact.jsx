@@ -12,50 +12,62 @@ export default function Contact() {
           <p>Let's connect and create something great together</p>
           <div className="section-line"></div>
         </div>
-        <div className="contact-grid">
-          <div className="contact-info reveal">
+
+        <div className="glass-card contact-card-centered reveal">
+          <div className="contact-card-content">
             <h3>Let's Talk</h3>
-            <p>I'm always open to discussing new opportunities, collaborations, or just having a chat about tech and data.</p>
-            <div className="contact-item">
-              <div className="ci-icon"><i className="fa-solid fa-envelope"></i></div>
-              <div className="ci-text">
-                <div className="label">Email</div>
-                <div className="value"><a href={`mailto:${personalInfo.email}`}>{personalInfo.email}</a></div>
+            <p className="contact-subtext">
+              I'm always open to discussing new opportunities, collaborations, or just having a chat about tech, web development, and data analysis.
+            </p>
+
+            <div className="contact-details-grid">
+              <div className="contact-detail-box">
+                <div className="cd-icon"><i className="fa-solid fa-envelope"></i></div>
+                <div className="cd-info">
+                  <div className="cd-label">Email</div>
+                  <a href={`mailto:${personalInfo.email}`} className="cd-value-link">
+                    {personalInfo.email}
+                  </a>
+                </div>
+              </div>
+
+              <div className="contact-detail-box">
+                <div className="cd-icon"><i className="fa-solid fa-location-dot"></i></div>
+                <div className="cd-info">
+                  <div className="cd-label">Location</div>
+                  <div className="cd-value">{personalInfo.location}</div>
+                </div>
               </div>
             </div>
-            <div className="contact-item">
-              <div className="ci-icon"><i className="fa-solid fa-phone"></i></div>
-              <div className="ci-text">
-                <div className="label">Phone</div>
-                <div className="value">{personalInfo.phone}</div>
+
+            <div className="contact-action-bar">
+              <a
+                href={`mailto:${personalInfo.email}`}
+                className="btn btn-primary btn-contact-direct"
+              >
+                <i className="fa-solid fa-paper-plane"></i> Send Me An Email
+              </a>
+              <div className="contact-social-icons">
+                <a
+                  href={personalInfo.socialLinks.github}
+                  target="_blank"
+                  rel="noreferrer"
+                  title="GitHub"
+                  aria-label="GitHub"
+                >
+                  <i className="fa-brands fa-github"></i>
+                </a>
+                <a
+                  href={personalInfo.socialLinks.linkedin}
+                  target="_blank"
+                  rel="noreferrer"
+                  title="LinkedIn"
+                  aria-label="LinkedIn"
+                >
+                  <i className="fa-brands fa-linkedin-in"></i>
+                </a>
               </div>
             </div>
-            <div className="contact-item">
-              <div className="ci-icon"><i className="fa-solid fa-location-dot"></i></div>
-              <div className="ci-text">
-                <div className="label">Location</div>
-                <div className="value">{personalInfo.location}</div>
-              </div>
-            </div>
-          </div>
-          <div className="glass-card contact-form reveal reveal-delay-1">
-            <form action={`mailto:${personalInfo.email}`} method="post" encType="text/plain">
-              <div className="form-group">
-                <label htmlFor="name">Name</label>
-                <input type="text" id="name" name="name" placeholder="Your name" required />
-              </div>
-              <div className="form-group">
-                <label htmlFor="email">Email</label>
-                <input type="email" id="email" name="email" placeholder="your@email.com" required />
-              </div>
-              <div className="form-group">
-                <label htmlFor="message">Message</label>
-                <textarea id="message" name="message" placeholder="Your message..." required></textarea>
-              </div>
-              <button type="submit" className="btn btn-primary btn-submit">
-                <i className="fa-solid fa-paper-plane"></i> Send Message
-              </button>
-            </form>
           </div>
         </div>
       </div>

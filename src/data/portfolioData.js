@@ -1,7 +1,6 @@
 export const personalInfo = {
   name: 'Shubham Gaonkar',
   email: 'shubhamgaonkar2005@gmail.com',
-  phone: '+91-9049869955',
   location: 'Ponda, Goa, India',
   resumeLink: 'https://drive.google.com/file/d/1yvzKYdF36zWSnV3V_ifCPuGWy0wullB8/view?usp=sharing',
   tagline:
