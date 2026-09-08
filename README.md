@@ -6,8 +6,6 @@ A modern, responsive personal portfolio website built to showcase my projects, s
 
 👉 Primary: https://shubham-gaonkar-portfolio.netlify.app/
 
-👉 Mirror: https://shubham-gaonkar-portfolio.web.app/
-
 ---
 
 ## 🚀 Features
